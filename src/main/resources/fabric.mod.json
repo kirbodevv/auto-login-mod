@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "auto-login-mod",
+	"version": "1.0",
+	"name": "Auto Login Mod",
+	"description": "Клиент-мод для автоматического ввода любой команды (к примеру авто-ввод пароля)",
+	"authors": [
+		"kirbodevv"
+	],
+	"contact": {
+		"homepage": "https://github.com/kirbodevv",
+		"sources": "https://github.com/kirbodevv/atm"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/auto-login-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"cloud.sect.alm.AutoLoginModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
