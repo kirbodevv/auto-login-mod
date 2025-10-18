@@ -7,6 +7,6 @@
 
 ## Features
 
-- **Auto Login**: Automatically execute a command `/login %your_password%` when you click `F9` (or your chosen shortcut).
+- **Auto Login**: Automatically executes the `/login %your_password%` command when you click `F9` (or your chosen shortcut).
 - **Customizable Shortcut**: Set your own key combination to trigger the auto-login.
 - ~~**Secure Storage**: Passwords are stored securely using encryption.~~
