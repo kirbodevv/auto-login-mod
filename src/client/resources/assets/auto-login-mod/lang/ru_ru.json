@@ -1,4 +1,5 @@
 {
-  "category.autocmd": "Auto Login",
-  "key.autocmd.send": "Отправить команду"
+  "alm.category.autocmd": "Auto Login",
+  "alm.key.autocmd.send": "Отправить команду",
+  "alm.default_command_text": "Введите ваш пароль используя команду /alm:set <пароль> (На данный момент не реализовано, пожалуйста используйте файл конфигурации)"
 }

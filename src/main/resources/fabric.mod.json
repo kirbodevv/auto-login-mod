@@ -3,13 +3,14 @@
 	"id": "auto-login-mod",
 	"version": "1.0",
 	"name": "Auto Login Mod",
-	"description": "Клиент-мод для автоматического ввода любой команды (к примеру авто-ввод пароля)",
+	"description": "Client mod for automatic entering login commands on servers that require them.",
 	"authors": [
 		"kirbodevv"
 	],
 	"contact": {
 		"homepage": "https://github.com/kirbodevv",
-		"sources": "https://github.com/kirbodevv/atm"
+		"sources": "https://github.com/kirbodevv/auto-login-mod",
+		"issues": "https://github.com/kirbodevv/auto-login-mod/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/auto-login-mod/icon.png",
@@ -24,8 +25,5 @@
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
